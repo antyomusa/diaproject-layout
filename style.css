@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+header .navbar-custom {
+  background-color: white;
+}
+header .navbar-custom .navbar-brand img {
+  margin-bottom: 8px;
+}
+header .navbar-custom .nav-link {
+  color: black;
+}
+header .navbar-custom .active {
+  color: #006EFF;
+}
+header .navbar-custom .btn-primary:hover {
+  background: white;
+  color: #006EFF;
+  border: 1px solid #006EFF;
+}
+@media (min-width: 992px) {
+  header .navbar-custom .navbar-nav {
+    margin-left: 5%;
+  }
+  header .navbar-custom .nav-item {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  header .navbar-custom .nav-item .btn {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 991.98px) {
+  header .navbar-custom .navbar-nav {
+    margin-top: 10px;
+  }
+  header .navbar-custom .nav-item .btn {
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  body .banner {
+    background: url(assets/jumbotron-small.jpg);
+  }
+}
+@media (min-width: 1200px) {
+  body .banner {
+    background: url(assets/jumbotron.jpg);
+  }
+}
+body .banner {
+  position: relative;
+  width: 100%;
+  height: 83vh;
+  background-size: cover;
+  margin-bottom: 0;
+}
+body .banner .height100p {
+  height: 100vh;
+}
+body .banner .h100 {
+  height: 100%;
+}
+body .banner .input-group-text {
+  background: white;
+  border: none !important;
+}
+body .banner .contentBox {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  body .banner .contentBox img {
+    margin-left: 20vh;
+    margin-top: -10px;
+  }
+}
+body .banner .contentBox h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.5rem;
+  align-items: center;
+}
+body .banner .contentBox .btn-search {
+  background-color: #F5B50E;
+  color: white;
+  padding: 14px;
+}
+body .banner .contentBox .popular-tag p {
+  font-size: 13px;
+  padding-top: 5px;
+}
+body .banner .contentBox .popular-tag .btn {
+  font-size: 13px;
+}
+@media (min-width: 992px) {
+  body .banner .contentBox .tag-btn {
+    margin-left: -20px;
+  }
+}
+body .job-oppur a {
+  text-decoration: none;
+}
+body .job-oppur .section-title h3 {
+  font-weight: 800;
+}
+@media (max-width: 767.98px) {
+  body .job-oppur .text-link {
+    font-size: 20px;
+  }
+}
+body .job-oppur .section-body .card {
+  background-color: #ECF3FF;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+body .job-oppur .section-body .card .clock {
+  font-size: 15px;
+}
+body .job-oppur .section-body .card .clock img {
+  margin-top: 2px;
+}
+body .features a {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  body .features .features-assets {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 767.98px) {
+  body .features .features-asset {
+    padding-top: 20px;
+  }
+  body .features .features-image {
+    margin-top: 50px;
+  }
+  body .features .features-content {
+    margin-top: 50px;
+  }
+}
+body .features h4 {
+  font-weight: 900;
+}
+@media (min-width: 576px) {
+  body .features .features-content {
+    margin-top: 20px;
+  }
+}
+body .link-text {
+  margin-top: 100px;
+}
+@media (max-width: 767.98px) {
+  body .link-text {
+    margin-top: 50px;
+  }
+}
+body .jobseeker {
+  color: white;
+}
+@media (max-width: 767.98px) {
+  body .jobseeker {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  body .jobseeker {
+    margin-top: 200px;
+  }
+}
+body .jobseeker .jobseeker-bg {
+  background-color: #006EFF;
+  border-radius: 20px;
+}
+@media (max-width: 767.98px) {
+  body .jobseeker .jobseeker-bg .jobseeker-img img {
+    width: auto;
+    height: 250px;
+    border-radius: 100px;
+    position: abolute;
+    margin-top: -100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .jobseeker .jobseeker-bg .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
+  body .jobseeker .jobseeker-bg .jobseeker-img img {
+    width: auto;
+    height: 450px;
+    border-radius: 100px;
+    position: abolute;
+    margin-top: -100px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  body .jobseeker .jobseeker-bg .jobseeker-img img {
+    width: auto;
+    height: 550px;
+    border-radius: 100px;
+    position: abolute;
+    margin-top: -180px;
+    margin-left: 80px;
+  }
+}
+body .jobseeker .jobseeker-bg .jobseeker-content {
+  padding: 30px;
+}
+body .jobseeker .jobseeker-bg h2 {
+  font-weight: 900;
+}
+body .jobseeker .jobseeker-bg h4 {
+  font-weight: 500;
+}
+body .jobseeker .jobseeker-bg .btn-biru {
+  background: white;
+  color: #006EFF;
+  font-weight: 600;
+}
+body .jobseeker .jobseeker-bg .btn-biru:hover {
+  background: #006EFF;
+  color: white;
+  border: 2px solid white;
+}
+body .jobseeker-quote {
+  background-image: url(/assets/bannerquote.png);
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body .jobseeker-quote .banner-quote {
+  padding: 120px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+body .jobseeker-quote .italic-quote {
+  font-style: italic;
+  font-weight: 100;
+}
+body .jobseeker-quote .btn-biru {
+  background: white;
+  color: #006EFF;
+  font-weight: 600;
+}
+body .jobseeker-quote .btn-biru:hover {
+  background: #006EFF;
+  color: white;
+  border: 2px solid white;
+}
+@media (max-width: 767.98px) {
+  body .jobseeker-quote h2 {
+    font-size: 18px;
+  }
+  body .jobseeker-quote .banner-quote {
+    padding: 40px;
+  }
+}
+body .phone-content {
+  z-index: 100;
+}
+@media (max-width: 767.98px) {
+  body .phone-content img {
+    max-height: 280px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) {
+  body .phone-content img {
+    max-height: 350px;
+    margin-left: 70px;
+    margin-top: 340px;
+  }
+}
+@media (min-width: 992px) {
+  body .phone-content img {
+    max-height: 550px;
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+}
+body .qr-content {
+  z-index: 100;
+}
+@media (max-width: 767.98px) {
+  body .qr-content img {
+    max-height: 280px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) {
+  body .qr-content img {
+    max-height: 2280px;
+    max-width: 210px;
+    margin-left: auto;
+    margin-top: 120px;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 992px) {
+  body .footer .svg-1 {
+    margin-top: -100px;
+    z-index: -1 !important;
+  }
+}
+@media (min-width: 1200px) {
+  body .footer .svg-1 {
+    margin-top: -130px;
+    z-index: -1 !important;
+  }
+}
+body .footer .footer-content {
+  background-color: #006EFF;
+}
+body .footer-content {
+  color: white;
+}
+body .footer-content img {
+  padding: 50px 0 0 50px;
+  max-width: 200px;
+}
+body .footer-content p {
+  padding: 20px 0 0 50px;
+}
+@media (min-width: 768px) {
+  body .footer-content img {
+    padding: 50px 0 0 50px;
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
